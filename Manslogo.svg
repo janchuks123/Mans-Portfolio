@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <filter id="Path_1" x="238.851" y="69.5" width="581.318" height="716.051" filterUnits="userSpaceOnUse">
+      <feOffset dx="16" dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23.5" result="blur"/>
+      <feFlood flood-color="#2d2b00" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Logo_Final_Tumšs">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+  <g id="Logo_Final_Tumšs" clip-path="url(#clip-Logo_Final_Tumšs)">
+    <rect width="1024" height="1024" fill="#373737"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(-51 -31)">
+      <g id="Group_1" data-name="Group 1" transform="translate(344.351 150)">
+        <g transform="matrix(1, 0, 0, 1, -293.35, -119)" filter="url(#Path_1)">
+          <path id="Path_1-2" data-name="Path 1" d="M220.579,575.523c-4.863,13.175,0,50.264,0,50.264s189.553,35.159,192.61-178.852S541.6,266.554,541.6,266.554s41.252,198.852,24.04,293.639c-14.711,38.92-67.578,31.575-79.6,40.012-.919-.92-.915,24.864-5.585,25.582-7.643,1.176,178.286,0,178.286,0s-72.809-314.9-55.994-454.01,0-117.706,0-117.706-177.324,107.006-218.6,178.852-19.372,205.667-60.263,287.068S235.024,563.873,220.579,575.523Z" transform="translate(74.93 66.11)" fill="#ee9700"/>
+        </g>
+        <path id="Path_2" data-name="Path 2" d="M484.314,597.09H648.363V545.116H484.314Z" transform="translate(-294.608 -186.226)" fill="#ee9700"/>
+        <path id="Path_3" data-name="Path 3" d="M638.9,52.887s-41.212,120.4-112.4,147.7c-84.65,80.57-51.791,64.626-85.957,155.376-51.489,203.171-110.214,201.38-110.75,202.451,71.615-53.922,50.216-274.117,89.127-326.784C466.556,155.626,638.9,52.887,638.9,52.887Z" transform="translate(-252.387 -52.887)" fill="#ffaa17"/>
+      </g>
+      <text id="Jānis_Auzāns" data-name="Jānis Auzāns" transform="translate(324 862)" fill="#fff" font-size="66" font-family="Rubik" font-weight="500"><tspan x="0" y="0">JĀNIS AUZĀNS</tspan></text>
+      <text id="Mountaineer" transform="translate(399 924)" fill="#fff" font-size="48" font-family="Rubik" font-weight="300"><tspan x="0" y="0">MOUNTAINEER</tspan></text>
+    </g>
+  </g>
+</svg>

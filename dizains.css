@@ -1,0 +1,89 @@
+
+html {
+    scroll-behavior: smooth;
+}.about1{
+text-align:center;
+}
+.about2{
+  margin: 10px 15px;
+}
+#about{
+  padding:64px;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Pirmā bilde (backgrounds. 80% augstums) */
+.bgimg-1 {
+  background-image: url("https://images.unsplash.com/photo-1521335751419-603f61523713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=626&q=80");
+  min-height: 100%;}
+
+a.poga:link, a.poga:visited{
+
+    color:#191970;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin-top: 25px;
+
+}
+#myNavbar a:hover {
+    color:#1d198d!important;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.7s ease;
+    background: none!important;
+    flex-direction: row-reverse;
+
+}
+
+.poga{
+    order: 3;
+    display: -webkit-box;
+}
+h3{
+    padding: 30px;
+}img{
+     padding: 10px;}
+
+#myNavbar{
+    display:flex;
+    justify-content: flex-start;
+
+}
+
+.porfolio1{
+  content: normal;
+  padding: 16px;
+margin-top: 10px ;
+text-align: center;
+}
+body,h1,h2,h3,h4,h5,h6{
+  font-family: "Lato", sans-serif;
+}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+  /* Otrā bilde (priekš sadaļas Portfolio) */
+  .bgimg-2 {
+    background-image: url("https://images.unsplash.com/photo-1551643577-371f44141d4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    min-height: 550px;
+}/*lightbox formatejums */
+  .lightbox {
+      position: absolute;
+      left: 0;
+      z-index: 10000;
+      text-align: center;
+      line-height: 0;
+      font-weight: normal;
+      outline: none;
+    }
+section, a:link{
+    dispay:flex;
+    justify-content: center;
+}
